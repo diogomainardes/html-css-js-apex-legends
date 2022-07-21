@@ -1,0 +1,13 @@
+.banner {
+    margin-top: 90px;
+    height: 1000px;
+    background: url('../image/banner-principal.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 500px;
+    }
+}
